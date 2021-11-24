@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+.headerback {
+  background-image: url(../../assets/headerImage2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height: 200px; */
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+
+.links {
+  text-align: end;
+  color: white;
+
+  font-size: 25px;
+}
+.Signlinks {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+.Loginlinks {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.MomatoName {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+  margin: 100px 0px 0px 10px;
+
+  /* text-transform: uppercase; */
+}
+.Tagline {
+  color: white;
+  font-size: 35px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+
+  /* font-family: Okra, Helvetica, sans-serif; */
+}
+
+.search {
+  width: 90%;
+  padding: 0px 0px 5px 20px;
+  margin: 30px 0px 70px 0px;
+  height: 55px;
+  border-style: none;
+  border-radius: 10px;
+
+  font-size: 20px;
+
+  font-family: "M PLUS 1", sans-serif;
+  text-decoration: grey;
+  outline-color: rgba(128, 128, 128, 0.637);
+}
+.banner-content {
+  text-align: center;
+}
+
+.Location-heading {
+  font-size: 65px;
+}
+.Location-heading span {
+  padding: 20px;
+  font-size: 30px;
+  color: rgba(255, 68, 0, 0.822);
+}
+
+.Citesname {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.Citesname li {
+  font-size: 25px;
+  list-style: none;
+  font-weight: 100;
+  font-style: italic;
+  color: rgba(128, 128, 128, 0.726);
+}
+
+.topRestaurant-heading {
+  /* font-size: 65px; */
+  padding: 20px;
+  font-size: 30px;
+  color: rgba(255, 68, 0, 0.822);
+}
+
+.topRestaurant-heading span {
+  /* padding: 20px;
+  font-size: 30px;
+  color: rgba(255, 68, 0, 0.822); */
+  font-size: 65px;
+  color: black;
+}
+
+.topChains {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.topChains li {
+  font-size: 25px;
+  list-style: none;
+  font-weight: 100;
+  font-style: italic;
+  color: rgba(128, 128, 128, 0.726);
+}
+
+.footer {
+  background-color: black;
+}
+
+.MomatoName1 {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+  margin: 10px 0px 0px 10px;
+  text-align: end;
+  /* letter-spacing: 15px; */
+}
+
+.vapour {
+  position: relative;
+  display: flex;
+  z-index: 1;
+}
+.vapour span {
+  position: relative;
+  bottom: 355px;
+  margin: 8px;
+  left: 119px;
+  background: white;
+  min-width: 8px;
+  /* width: 10px; */
+  height: 120px;
+  border-radius: 50%;
+  animation: animate 5s linear infinite;
+  filter: blur(9px);
+  /* animation-delay: calc(attr(ratio) * 400ms); */
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) scalex(0.5);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-100px) scaleX(2);
+  }
+  70% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-200px) scalex(3);
+    opacity: 0.5;
+  }
+}
+
+span:nth-child(1) {
+  animation-delay: 0.5s;
+}
+span:nth-child(2) {
+  animation-delay: 5s;
+}
+span:nth-child(3) {
+  animation-delay: 1s;
+}
+span:nth-child(4) {
+  animation-delay: 0.5s;
+}
+span:nth-child(5) {
+  animation-delay: 4s;
+}
+span:nth-child(6) {
+  animation-delay: 2s;
+}
+span:nth-child(7) {
+  animation-delay: 0.05s;
+}
+span:nth-child(8) {
+  animation-delay: 1s;
+}
+span:nth-child(9) {
+  animation-delay: 2.5s;
+}
+span:nth-child(10) {
+  animation-delay: 0s;
+}
+span:nth-child(11) {
+  animation-delay: 3s;
+}
+span:nth-child(12) {
+  animation-delay: 4s;
+}
+span:nth-child(13) {
+  animation-delay: 5s;
+}
+
+.footer-company {
+  font-size: 35px;
+  padding: 10px;
+  margin: 50px 10px 2px 30px;
+
+  list-style: none;
+  color: rgb(170, 169, 169);
+}
+.footer-company li {
+  font-size: 18px;
+  padding: 10px 0px 0px 25px;
+  color: rgba(68, 68, 68, 0.774);
+  text-align: center;
+}
+
+.footer-lastline {
+  padding: 0;
+  margin: 0;
+  color: rgba(245, 222, 179, 0.678);
+  letter-spacing: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+/*   -----    Web Scroll Bar     -----    */
+
+::-webkit-scrollbar {
+  width: 40px;
+  background: transparent;
+}
+/* ::-webkit-scrollbar-track {
+   width: 50px; 
+} */
+::-webkit-scrollbar-thumb {
+  background-image: url(../../assets/Webkitfinal.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
